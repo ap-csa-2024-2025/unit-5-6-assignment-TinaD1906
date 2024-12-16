@@ -11,9 +11,19 @@ public class Dog
     breed = iBreed;
   }
 
+  public void setWeight ( double iWeight)
+  {
+    weight = iWeight;
+  }
+
   // Make getters
   public String getBreed()
   {
     return breed;
+  }
+
+  public String getWeight()
+  {
+    return weight;
   }
 }

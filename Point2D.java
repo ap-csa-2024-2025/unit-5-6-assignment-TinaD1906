@@ -49,10 +49,26 @@ public class Point2D
     return 0.0;
   }
 
+  public double dist()
+  {
+    double distX = Math.pow(x-0,2);
+    double distY = Math.pow(y-0,2);
+    return Math.sqrt(distX + distY);
+  }
+
+
   // Overload of dist() method
   // Returns the distance from this point to Point2D other
   public double dist(Point2D other)
   {
+    double diffX = x - other.getX();
+    double diffY = y - other.y;
+    
     return 0.0;
   }
+
+
+
+
+
 }
